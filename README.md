@@ -18,9 +18,11 @@ Double click and it will open the Quartus project with an appropriate simulation
 
 # Vivado 2018.2
 
-To create the Vivado projects, download all the files from github to your directory (D:/RVSC in this example)    
-In the Vivado folder you will find some TCL scripts.   They assume a Windows path for the root but this can be changed to Linux.    
+To create the Vivado projects, download all the files from github to a folder (D:/RVSC in this example)    
+Copy the TCL files from the Vivado sub-folder into this folder.     
+(They assume a Windows path for the root but this can be changed to Linux.)   
 
+The directory should contain the folders for the modules and the TCL scripts from the Vivado folder.    
 
 Edit  Run-All.tcl to have the correct location of all the project files and the part you are using (PATH and PART)   
 ```
@@ -34,7 +36,8 @@ In Vivado TCL console, run
 source d:/RVSC/Run-All.tcl
 ```
 
-The directory D:/RVSC should start like this.    
+
+Example of the main folder.   
 
 ```
 dir /b /ad
