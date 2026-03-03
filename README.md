@@ -1,5 +1,9 @@
-# Simple-RISC-V-processor-using-Verilog
-Simple RISC V processor using Verilog
+# Single-cycle RISC-V processor using Verilog
+
+A single-cycle RISC V processor written in Verilog
+
+Supporting files for this book ```RISC-V single-cycle processor using Verilog```   
+ISBN-13 ‏ : ‎ 979-8249151010
 
 # Quartus 13.0sp1
 
