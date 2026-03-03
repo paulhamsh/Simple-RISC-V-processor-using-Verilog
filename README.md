@@ -4,7 +4,7 @@ Simple RISC V processor using Verilog
 # Quartus 13.0sp1
 
 Download the files from the Quartus folder.    
-The project file for each module is in the ``working``` sub-folder.     
+The project file for each module is in the ```working``` sub-folder.     
 
 For example
 ```
