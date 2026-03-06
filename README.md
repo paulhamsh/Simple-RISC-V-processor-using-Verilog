@@ -27,7 +27,7 @@ J-Data-Word
 K-Data-Aligned
 L-Data-Misaligned
 LICENSE
-M-Input- Output
+M-Input-Output
 N-SOC
 Quartus
 README.md
