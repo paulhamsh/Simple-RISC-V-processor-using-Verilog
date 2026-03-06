@@ -1,3 +1,17 @@
+mkdir ..\A-Program-Counter\src
+mkdir ..\B-Instruction-Memory\src
+mkdir ..\C-Control-Unit\src
+mkdir ..\D-Registers\src
+mkdir ..\E-ALU\src
+mkdir ..\F-Immediates\src
+mkdir ..\G-Branch\src
+mkdir ..\H-Jumps\src
+mkdir ..\I-Large-Immediate\src
+mkdir ..\J-Data-Word\src
+mkdir ..\K-Data-Aligned\src
+mkdir ..\L-Data-Misaligned\src
+mkdir ..\M-Input-Output\src
+mkdir ..\N-SOC\src
 copy /y ..\..\A-Program-Counter\src ..\A-Program-Counter\src
 copy /y ..\..\B-Instruction-Memory\src ..\B-Instruction-Memory\src
 copy /y ..\..\C-Control-Unit\src ..\C-Control-Unit\src
