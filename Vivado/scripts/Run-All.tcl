@@ -1,5 +1,5 @@
 set ::PATH D:/RiscV/Vivado
-set ::PART xc7a12ticsg325-1L
+set ::PART xc7a100tcsg324-1
 
 source $PATH/scripts/A-Build.tcl
 source $PATH/scripts/B-Build.tcl
@@ -14,4 +14,5 @@ source $PATH/scripts/J-Build.tcl
 source $PATH/scripts/L-Build.tcl
 source $PATH/scripts/M-Build.tcl
 source $PATH/scripts/N-Build.tcl
+
 
