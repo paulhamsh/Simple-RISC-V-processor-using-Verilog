@@ -53,13 +53,12 @@ Double click and it will open the Quartus project with an appropriate simulation
 
 ## Vivado 2018.2
 
-Run this command to copy the source files into the Vivado folder.   
+Change directory to ```Vivado\scripts```     
 
-```
-robocopy . Vivado /s /xd  Vivado Quartus
-```
+Run ```create.bat```   
 
 Edit  Vivado\scripts\Run-All.tcl to have the correct location of all the project files and the part you are using (PATH and PART)   
+
 ```
 set ::PATH d:/RiscV/Vivado
 set ::PART xc7a12ticsg325-1L
