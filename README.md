@@ -51,7 +51,7 @@ The project file for each module is in the ```working``` sub-folder.
 
 For example
 ```
-d:\RiscV\A-Program-Counter\A-Program-Counter.qpf
+d:\RiscV\A-Program-Counter\working\A-Program-Counter.qpf
 ```
 Double click and it will open the Quartus project with an appropriate simulation configured.    
 
