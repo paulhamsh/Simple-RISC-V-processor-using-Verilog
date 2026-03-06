@@ -68,5 +68,5 @@ source d:/RiscV/Run-All.tcl
 
 Then the project file is in the sub-folder, for example:
 ```
-d:\RiscV\A-Program-Counter
+d:\RiscV\A-Program-Counter\A-Program-Counter.xpr
 ```
