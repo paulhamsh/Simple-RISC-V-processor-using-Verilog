@@ -26,10 +26,10 @@ module DataMemory(
   
   initial
     begin
-      $readmemb("test_data_ramA.mem", mA);      
-      $readmemb("test_data_ramB.mem", mB);      
-      $readmemb("test_data_ramC.mem", mC);      
-      $readmemb("test_data_ramD.mem", mD);
+      $readmemh("test_data_ramA.mem", mA);      
+      $readmemh("test_data_ramB.mem", mB);      
+      $readmemh("test_data_ramC.mem", mC);      
+      $readmemh("test_data_ramD.mem", mD);
     end
     
   always @(posedge clk) begin
