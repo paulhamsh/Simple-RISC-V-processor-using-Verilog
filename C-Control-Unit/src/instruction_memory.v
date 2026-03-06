@@ -18,7 +18,7 @@ module InstructionMemory(
   
   initial
     begin
-      $readmemb(`test_prog, memory);
+      $readmemh(`test_prog, memory);
     end
   
   assign instr = memory[word_addr]; 
