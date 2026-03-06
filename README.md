@@ -5,6 +5,8 @@ A single-cycle RISC V processor written in Verilog
 Supporting files for this book ```RISC-V single-cycle processor using Verilog```   
 ISBN-13 ‏ : ‎ 979-8249151010    
 
+<img src="cover.jpg">
+
 All the files for the book are here.     
 They are tested with Quartus 13.0sp1 on a DE2 board, and Vivado 2018.2 on a Nexys 4 DDR board.   
 
