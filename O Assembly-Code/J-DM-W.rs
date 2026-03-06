@@ -1,6 +1,0 @@
-lw   x2, x0(4)  // 0x10 from [0x04]
-lw   x3, x2(4)  // 0x0c from [0x14]
-sw   x2, x2(4)  // 0x10 in   [0x14]
-sw   x2, x2(4)  // 0x10 in   [0x14]
-
-
