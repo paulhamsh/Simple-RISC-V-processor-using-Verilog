@@ -5,7 +5,18 @@ A single-cycle RISC V processor written in Verilog
 Supporting files for this book ```RISC-V single-cycle processor using Verilog```   
 ISBN-13 ‏ : ‎ 979-8249151010
 
-# Quartus 13.0sp1
+# Installation instuctions - Windows
+
+Either clone the repo or down load a zip.   
+Assume it is installed at d:\RiscV\   
+This folder should now look like this
+```
+
+
+```
+
+
+## Quartus 13.0sp1
 
 Download the files from the Quartus folder.    
 The project file for each module is in the ```working``` sub-folder.     
@@ -16,7 +27,7 @@ E-ALU / working / E-ALU.qpf
 ```
 Double click and it will open the Quartus project with an appropriate simulation configured.    
 
-# Vivado 2018.2
+## Vivado 2018.2
 
 To create the Vivado projects, download all the files from github to a folder (D:/RVSC in this example)    
 Copy the TCL files from the Vivado sub-folder into this folder.     
