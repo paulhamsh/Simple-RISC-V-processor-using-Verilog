@@ -77,6 +77,160 @@ Or - once Vivado is open in a project, select the TCL console and type
 source d:/RiscV/Vivado/scripts/Run-All.tcl
 ```
 
+## Waveform entities
+
+```
+A-Program-Counter
+	clk
+	uut/pc_current
+	uut/pc_next
+B-Instruction-Memory
+	clk
+	uut/pc_current
+	uut/instr
+C-Control-Unit
+	clk
+	uut/cu/instr
+	uut/cu/opcode
+	uut/cu/funct3
+	uut/cu/funct7
+D-Registers
+	clk
+	uut/im/instr
+	uut/regs/rd
+	uut/regs/rs1
+	uut/regs/rs2
+	uut/regs/rs1_value
+	uut/regs/rs2_value
+E-ALU
+	clk
+	uut/pc_current
+	uut/instr
+	uut/alu_op
+	uut/rs1
+	uut/rs1_value
+	uut/rs2
+	uut/rs2_value
+	uut/alu_out
+	uut/rd
+	uut/rd_value
+F-Immediates
+	clk
+	uut/pc_current
+	uut/alu_op
+	uut/alu_b_src
+	uut/rd
+	uut/rs1
+	uut/rs2
+	uut/rd_value
+	uut/rs1_value
+	uut/rs2_value
+	uut/immediate
+	uut/alu_out
+G-Branch
+	clk
+	uut/pc_current
+	uut/pc_next
+	uut/instr
+	uut/alu_op
+	uut/rs1_value
+	uut/rs2_value
+	uut/alu_out
+	uut/branch_cond
+	uut/branch
+H-Jumps
+	clk
+	uut/pc_current
+	uut/instr
+	uut/alu_op
+	uut/reg_write_en
+	uut/alu_b_src
+	uut/alu_a_src
+	uut/immediate
+	uut/branch_cond
+	uut/branch
+	uut/rd_src
+	uut/regs/reg_array[3]
+	uut/rd_value
+	uut/pc_next
+I-Large-Immediate
+	clk
+	uut/pc_current
+	uut/instr
+	uut/alu_out
+	uut/reg_write_en
+	uut/alu_a_value
+	uut/alu_b_value
+	uut/rd_value
+	uut/regs/reg_array[1]
+	uut/regs/reg_array[2]
+	uut/regs/reg_array[3]
+	uut/regs/reg_array[4]
+J-Data-Word
+	clk
+	uut/pc_current
+	uut/instr
+	uut/data_read_en
+	uut/data_write_en
+	uut/data_size
+	uut/alu_out
+	uut/mem_out
+	uut/rs2_value
+	uut/regs/reg_array[2]
+	uut/regs/reg_array[3]
+	uut/dm/d_mem[5]
+K-Data-Aligned
+	clk
+	uut/pc_current
+	uut/instr
+	uut/data_read_en
+	uut/data_write_en
+	uut/data_size
+	uut/alu_out
+	uut/mem_out
+	uut/rs2_value
+	uut/regs/reg_array[2]
+	uut/regs/reg_array[3]
+	uut/dm/d_mem[5]
+L-Data-Misaligned
+	clk
+	uut/pc_current
+	uut/instr
+	uut/data_read_en
+	uut/data_write_en
+	uut/data_size
+	uut/alu_out
+	uut/mem_out
+	uut/rs2_value
+	uut/regs/reg_array[2]
+	uut/regs/reg_array[3]
+	uut/dm/mA[5]
+	uut/dm/mB[5]
+	uut/dm/mC[5]
+	uut/dm/mD[5]
+M-Input-Output
+	clk
+	uut/pc_current
+	uut/SW
+	uut/alu_op
+	uut/alu_out
+	uut/io1_en
+	uut/led_out
+	uut/LED
+	uut/regs/reg_array[4]
+	uut/regs/reg_array[6]
+N-SOC
+	clk
+	uut/pc_current
+	uut/SW
+	uut/alu_op
+	uut/alu_out
+	uut/io1_en
+	uut/led_out
+	uut/LED
+	uut/regs/reg_array[4]
+	uut/regs/reg_array[6]
+```
 Then the project file is in the sub-folder, for example:
 ```
 d:\RiscV\A-Program-Counter\A-Program-Counter.xpr
