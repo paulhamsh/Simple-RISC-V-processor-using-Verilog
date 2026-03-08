@@ -77,6 +77,12 @@ Or - once Vivado is open in a project, select the TCL console and type
 source d:/RiscV/Vivado/scripts/Run-All.tcl
 ```
 
+Then the project file is in the sub-folder, for example:
+```
+d:\RiscV\A-Program-Counter\A-Program-Counter.xpr
+```
+
+
 ## Waveform entities
 
 ```
@@ -230,8 +236,4 @@ N-SOC
 	uut/LED
 	uut/regs/reg_array[4]
 	uut/regs/reg_array[6]
-```
-Then the project file is in the sub-folder, for example:
-```
-d:\RiscV\A-Program-Counter\A-Program-Counter.xpr
 ```
