@@ -91,6 +91,9 @@ d:\RiscV\A-Program-Counter\A-Program-Counter.xpr
 
 ## Waveform entities
 
+This may be of use if you want to create your own testbench waveforms from scratch.
+They are also listed in the Vivado ```.wcfg``` wave configuration file and the Quartus '''wave.do''' file.    
+
 ```
 A-Program-Counter
 	clk
@@ -244,7 +247,8 @@ N-SOC
 	uut/regs/reg_array[6]
 ```
 
-Example implementation report for Vivado Nexys 4 DDR    
+## Example implementation report for Vivado Nexys 4 DDR    
+
 ```
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------
